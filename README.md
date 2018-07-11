@@ -1,3 +1,30 @@
+## pr2_gripper_sensor (kinetic) - 1.0.9-0
+
+The packages in the `pr2_gripper_sensor` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_gripper_sensor --rosdistro kinetic --track kinetic` on `Wed, 11 Jul 2018 05:16:14 -0000`
+
+These packages were released:
+- `pr2_gripper_sensor`
+- `pr2_gripper_sensor_action`
+- `pr2_gripper_sensor_controller`
+- `pr2_gripper_sensor_msgs`
+
+Version of package(s) in repository `pr2_gripper_sensor`:
+
+- upstream repository: https://github.com/PR2/pr2_gripper_sensor.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.9-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## pr2_gripper_sensor (indigo) - 1.0.9-0
 
 The packages in the `pr2_gripper_sensor` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo pr2_gripper_sensor` on `Mon, 22 Jun 2015 14:47:37 -0000`
