@@ -1,0 +1,13 @@
+Source: ros-kinetic-pr2-gripper-sensor-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-gripper-sensor-controller, ros-kinetic-pr2-gripper-sensor-msgs, ros-kinetic-pr2-machine, ros-kinetic-pr2-mechanism-controllers, ros-kinetic-pr2-mechanism-model, ros-kinetic-robot-mechanism-controllers, ros-kinetic-roscpp
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-gripper-sensor-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-message-runtime, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-gripper-sensor-controller, ros-kinetic-pr2-gripper-sensor-msgs, ros-kinetic-pr2-machine, ros-kinetic-pr2-mechanism-controllers, ros-kinetic-pr2-mechanism-model, ros-kinetic-robot-mechanism-controllers, ros-kinetic-roscpp
+Description: The pr2_gripper_sensor_action package provides an action interface for talking to the pr2_gripper_sensor_controller real-time controller.
+ It provides several different actions for getting high-level sensor information from the PR2 palm-mounted accelerometers, fingertip pressure arrays, and gripper motor/encoder, as well as several sensor-based gripper control actions that respond with low-latency in real-time.
