@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-gripper-sensor-controller
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-controller-manager, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-gripper-sensor-msgs, ros-kinetic-pr2-mechanism-model, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rosrt, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Homepage: http://ros.org/wiki/pr2_gripper_sensor_controller
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-gripper-sensor-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib-msgs, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-controller-manager, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-gripper-sensor-msgs, ros-kinetic-pr2-mechanism-model, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rosrt, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Description: The pr2_gripper_sensor_controller package is a real-time controller that integrates signals from the PR2 hand-mounted accelerometer and finger-mounted pressure sensors with motor control of the gripper joint to do highly responsive sensing and low-latency closed-loop control.
