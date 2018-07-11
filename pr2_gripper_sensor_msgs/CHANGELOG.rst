@@ -2,6 +2,13 @@
 Changelog for package pr2_gripper_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.10 (2018-07-12)
+-------------------
+* Merge pull request `#14 <https://github.com/pr2/pr2_gripper_sensor/issues/14>`_ from PR2/fix_maintainer
+  change maintainer to ros-orphaned-packages@googlegroups.com
+* change maintainer to ros-orphaned-packages@googlegroups.com
+* Contributors: Kei Okada
+
 1.0.9 (2015-06-22)
 ------------------
 
