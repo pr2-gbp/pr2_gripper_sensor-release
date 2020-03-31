@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-gripper-sensor-controller
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-pluginlib, ros-melodic-pr2-controller-interface, ros-melodic-pr2-controller-manager, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-gripper-sensor-msgs, ros-melodic-pr2-mechanism-model, ros-melodic-realtime-tools, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rosrt, ros-melodic-std-msgs, ros-melodic-std-srvs
+Homepage: http://ros.org/wiki/pr2_gripper_sensor_controller
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-gripper-sensor-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-pluginlib, ros-melodic-pr2-controller-interface, ros-melodic-pr2-controller-manager, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-gripper-sensor-msgs, ros-melodic-pr2-mechanism-model, ros-melodic-realtime-tools, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rosrt, ros-melodic-std-msgs, ros-melodic-std-srvs
+Description: The pr2_gripper_sensor_controller package is a real-time controller that integrates signals from the PR2 hand-mounted accelerometer and finger-mounted pressure sensors with motor control of the gripper joint to do highly responsive sensing and low-latency closed-loop control.

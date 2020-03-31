@@ -1,0 +1,84 @@
+ros-melodic-pr2-gripper-sensor-controller (1.0.11-1bionic) bionic; urgency=high
+
+  * add namespaces to avoid warning (#15 <https://github.com/PR2/pr2_gripper_sensor/issues/15>)
+    [ WARN] [/realtime_loop]:
+    The deprecated controller type PR2GripperSensorController was not found.
+    Using the namespaced version pr2_gripper_sensor_controller/PR2GripperSensorController instead.
+    Please update your configuration to use the namespaced version.
+  * Contributors: v4hn
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 30 Mar 2020 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.10-1bionic) bionic; urgency=high
+
+  * Merge pull request #14 <https://github.com/pr2/pr2_gripper_sensor/issues/14> from PR2/fix_maintainer
+    change maintainer to mailto:ros-orphaned-packages@googlegroups.com
+  * change maintainer to mailto:ros-orphaned-packages@googlegroups.com
+  * Merge pull request #11 <https://github.com/pr2/pr2_gripper_sensor/issues/11> from archielee/hydro-devel
+    Removed lines in each yaml file relating to a controller for the othe…
+  * Removed lines in each yaml file relating to a controller for the other side
+  * Forgot word
+  * Added include destinatoin
+  * removed unnec
+  * revert
+  * Fixed lib path
+  * Contributors: Archie Lee, Kei Okada, TheDash, archielee
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 11 Jul 2018 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.9-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 21 Jun 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.8-1bionic) bionic; urgency=high
+
+  * Fixed catkin install loc
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 01 Jun 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.7-1bionic) bionic; urgency=high
+
+  * Added launch file install
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 25 Mar 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.6-1bionic) bionic; urgency=high
+
+  * install controller_plugins.xml
+  * add install settings for catkin_make pr2_gripper_sensor_controller
+  * Contributors: John Hsu, Yuki Furuta
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 16 Mar 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.5-1bionic) bionic; urgency=high
+
+  * Removed the lib dir from sensor_controller
+  * Add publish_skip parameter to supress high-frequency publishing of gripper sensor data
+  * Contributors: Ryohei Ueda, TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Thu, 05 Feb 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.4-1bionic) bionic; urgency=high
+
+  * Added dependency on rosrt library and updated the CMake structure
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 02 Nov 2014 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.3-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 17 Sep 2014 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-controller (1.0.2-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 09 Sep 2014 15:00:00 -0000
+
+
