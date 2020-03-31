@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-gripper-sensor
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-gripper-sensor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-pr2-gripper-sensor-action, ros-melodic-pr2-gripper-sensor-controller, ros-melodic-pr2-gripper-sensor-msgs
+Description: The pr2_gripper_sensor package
