@@ -1,0 +1,13 @@
+Source: ros-melodic-pr2-gripper-sensor-action
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-gripper-sensor-controller, ros-melodic-pr2-gripper-sensor-msgs, ros-melodic-pr2-machine, ros-melodic-pr2-mechanism-controllers, ros-melodic-pr2-mechanism-model, ros-melodic-robot-mechanism-controllers, ros-melodic-roscpp
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-gripper-sensor-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-message-runtime, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-gripper-sensor-controller, ros-melodic-pr2-gripper-sensor-msgs, ros-melodic-pr2-machine, ros-melodic-pr2-mechanism-controllers, ros-melodic-pr2-mechanism-model, ros-melodic-robot-mechanism-controllers, ros-melodic-roscpp
+Description: The pr2_gripper_sensor_action package provides an action interface for talking to the pr2_gripper_sensor_controller real-time controller.
+ It provides several different actions for getting high-level sensor information from the PR2 palm-mounted accelerometers, fingertip pressure arrays, and gripper motor/encoder, as well as several sensor-based gripper control actions that respond with low-latency in real-time.
