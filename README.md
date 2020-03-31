@@ -1,2 +1,4 @@
-pr2_gripper_sensor [![Build Status](https://travis-ci.com/PR2/pr2_gripper_sensor.svg?branch=hydro-devel)](https://travis-ci.com/PR2/pr2_gripper_sensor)
-=======================================================================================================================================================
+pr2_gripper_sensor_action
+=========================
+
+PR2 Gripper sensor action apart of pr2_object_manipulation stack, upgraded to hydro for use with pr2_delivery
