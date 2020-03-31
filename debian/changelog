@@ -1,0 +1,64 @@
+ros-melodic-pr2-gripper-sensor-msgs (1.0.11-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 30 Mar 2020 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.10-1stretch) stretch; urgency=high
+
+  * Merge pull request #14 <https://github.com/pr2/pr2_gripper_sensor/issues/14> from PR2/fix_maintainer
+    change maintainer to mailto:ros-orphaned-packages@googlegroups.com
+  * change maintainer to mailto:ros-orphaned-packages@googlegroups.com
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 11 Jul 2018 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.9-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 21 Jun 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.8-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 01 Jun 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.7-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 25 Mar 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.6-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 16 Mar 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.5-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Thu, 05 Feb 2015 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.4-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 02 Nov 2014 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.3-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 17 Sep 2014 15:00:00 -0000
+
+ros-melodic-pr2-gripper-sensor-msgs (1.0.2-1stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 09 Sep 2014 15:00:00 -0000
+
+
